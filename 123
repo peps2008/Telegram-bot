@@ -1,0 +1,24 @@
+# Основные настройки бота
+BOT_TOKEN=8107815678:AAFmZLiat9HdPfwjj5FgA5tBG_srAqqb494
+ADMIN_ID=1175871225  # Например: 1175871225
+
+# Настройки кредита по умолчанию
+DEFAULT_CREDIT_AMOUNT=1500000
+DEFAULT_INTEREST_RATE=10
+DEFAULT_TERM_MONTHS=12
+DEFAULT_PAYMENT_DAY=8
+
+# Настройки OCR (Tesseract)
+TESSERACT_PATH=/usr/bin/tesseract  # Путь к tesseract (для Linux/macOS)
+# Для Windows может быть что-то вроде:
+# TESSERACT_PATH=C:\Program Files\Tesseract-OCR\tesseract.exe
+
+# Настройки кэширования
+CACHE_TIMEOUT=300  # 5 минут в секундах
+
+# Минимальный платеж
+MIN_PAYMENT=30000
+
+# Настройки логирования
+LOG_LEVEL=INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+LOG_FILE=bot.log  # Файл для записи логов (необязательно)
